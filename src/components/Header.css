@@ -1,0 +1,11 @@
+.header, .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+}
+
+.menu span, .logo {
+  padding: 1em;
+}

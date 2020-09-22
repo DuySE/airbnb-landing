@@ -1,0 +1,16 @@
+.search {
+  margin: auto;
+}
+
+.search > input {
+  border-radius: 2px;
+  color: grey;
+  background: url('../images/search-icon.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 35%;
+  height: 40px;
+  margin-top: 6%;
+  background-color: white;
+  border: 0;
+}
