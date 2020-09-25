@@ -5,6 +5,9 @@ It used React, React hooks and pure CSS.
 
 In the project directory, you can run:
 
+### `yarn`
+Install dependencies first.
+
 ### `yarn start`
 
 Runs the app in the development mode.<br />
@@ -17,10 +20,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 
-### `yarn test coverage`
+### `yarn coverage`
 
 Launches the test coverage in the interactive watch mode.<br />
-Check index.html in coverage\lcov-report for detail report.
+Check index.html in coverage/lcov-report for detail report.
 
 ### `yarn build`
 
@@ -40,5 +43,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Available Scripts
-Deployed by Heroku
+## Deployment
+Deployed by Heroku.
+Live demo: [https://ts-landing-page.herokuapp.com](https://ts-landing-page.herokuapp.com)
