@@ -1,19 +1,20 @@
 import React from 'react';
-import logo from '../images/airbnb-logo.svg';
+import Toggle from './Toggle';
 import './Header.css';
 
-const Header = () => {
+const Header = props => {
   return (
-    <div className="header">
+    <div className="header" role="full-horizontal">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img src="/images/airbnb-logo.svg" alt="logo" />
       </div>
-      <div className="menu">
-        <span>Become a host</span>
-        <span>Help</span>
-        <span>Sign up</span>
-        <span>Log in</span>
-      </div>
+      <ul className="menu">
+        <li>{<Toggle onChange={props.onChange} />}</li>
+        <li>Become a host</li>
+        <li>Help</li>
+        <li>Sign up</li>
+        <li>Log in</li>
+      </ul>
     </div>
   )
 }

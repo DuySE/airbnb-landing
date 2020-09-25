@@ -4,8 +4,13 @@
   justify-content: space-between;
   color: white;
   font-weight: bold;
+  list-style: none;
 }
 
-.menu span, .logo {
-  padding: 1em;
+.menu li, .logo {
+  padding: 0.6em 1em 0 1em;
+}
+
+.logo img {
+  width: 25px;
 }
