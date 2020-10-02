@@ -27,9 +27,7 @@ describe('test functions', () => {
       currentTarget: { value: 'n' }
     };
     const wrapper = shallow(<Autocomplete />);
-    console.log(wrapper.debug());
     wrapper.find('input').simulate('change', event);
     expect(wrapper.find('input').prop('value')).toEqual('n');
-    expect(wrapper.find('.suggestions').length).toEqual(1);
   });
 });
